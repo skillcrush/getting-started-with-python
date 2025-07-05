@@ -52,9 +52,13 @@ selection = input("1. Star\n2. Square\n3. Hexagon\nSelect a number: ")
 if selection == "1":
   print("Excellent choice! Go to the result tab to see your creation.")
   star()
+  turtle.done()
 elif selection == "2":
   print("Excellent choice! Go to the result tab to see your creation.")
   square()
+  turtle.done()
 elif selection == "3":
   print("Excellent choice! Go to the result tab to see your creation.")
   hexagon()
+  turtle.done()
+  
